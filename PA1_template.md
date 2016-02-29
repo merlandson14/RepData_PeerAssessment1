@@ -235,7 +235,7 @@ g5 <- ggplot(meanFilled5min, aes(interval, steps))
 g5 + geom_line(color = "red") + facet_grid(. ~ day) + labs(title = "Average Steps per 5-Minute Interval for Weekdays and Weekends")
 ```
 
-![](https://github.com/merlandson14/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-html/mean.5-min/day.plot-1.png)
+![](https://github.com/merlandson14/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-html/mean%205-min/day.plot-1.png)
 
 It is obvious in both panels that this person is sleeping at the intervals 0 through about 500, so we will take those to be from midnight to waking.
 
