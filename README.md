@@ -3,13 +3,7 @@ Below are the instructions for our assigment on Movement Steps.
 Please see my html document for the full complete analysis and
 write-up. Thanks!
 
-**HELP! None of my images are showing up in the .md file like they
-should. There is a broken image link at each of the spots, so you
-can see where they should be and what their names are. But I don't
-know why it can't follow the file directory.** They are all there,
-just click on the image directory and then each individual file.
-
-And it was so pretty as one document. :(
+*Fixed URL links for the plots*
 
 
 
