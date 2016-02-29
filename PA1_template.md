@@ -70,7 +70,7 @@ g1 <- ggplot(totalStepsDaily, aes(date, steps))
 g1 + geom_bar(stat = "identity", fill = pal(53)) + labs(title = "Number of Steps per Day")
 ```
 
-![](PA1_template_files/figure-html/how many steps-1.png)
+![](https://github.com/merlandson14/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-html/how many steps-1.png)
 
 We also want to know the mean and median values over the total number of steps per day. 
 
@@ -106,7 +106,7 @@ g2 <- ggplot(meanStepsIntv)
 g2 + geom_bar(aes(date, steps), stat = "identity", fill = pal(53)) + labs(title = "Average Number of Steps per Day")
 ```
 
-![](PA1_template_files/figure-html/mean steps plot-1.png)
+![](https://github.com/merlandson14/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-html/mean steps plot-1.png)
 
 ###Second Questions -- How many steps per 5 minutes?
 
@@ -127,7 +127,7 @@ g3 <- ggplot(meanSteps5min, aes(interval, steps))
 g3 + geom_line(color = "red") + labs(title = "Average Steps per 5-Minute Interval")
 ```
 
-![](PA1_template_files/figure-html/mean 5-min plot-1.png)
+![](https://github.com/merlandson14/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-html/mean 5-min plot-1.png)
 
 Based on this plot, the 5-min intervals that had the highest averages of steps is in the 800 interval range, but we can see exactly which one it is.
 
@@ -177,7 +177,7 @@ g4 <- ggplot(totalFilledDaily, aes(date, steps))
 g4 + geom_bar(stat = "identity", fill = pal(61)) + labs(title = "Number of Steps per Day (Values Filled)")
 ```
 
-![](PA1_template_files/figure-html/how many steps filled-1.png)
+![](https://github.com/merlandson14/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-html/how many steps filled-1.png)
 
 There are two days, Oct 2 and Nov 15, with very few values. They were not NAs, just small numbers of observed steps. We can speculate what might have happened on those days, but we do not know. For a more detailed analysis, we might want to exclude those days as outliers, but for this test, we will leave them in.
 
@@ -235,7 +235,7 @@ g5 <- ggplot(meanFilled5min, aes(interval, steps))
 g5 + geom_line(color = "red") + facet_grid(. ~ day) + labs(title = "Average Steps per 5-Minute Interval for Weekdays and Weekends")
 ```
 
-![](PA1_template_files/figure-html/mean 5-min/day plot-1.png)
+![](https://github.com/merlandson14/RepData_PeerAssessment1/blob/master/PA1_template_files/figure-html/mean 5-min/day plot-1.png)
 
 It is obvious in both panels that this person is sleeping at the intervals 0 through about 500, so we will take those to be from midnight to waking.
 
