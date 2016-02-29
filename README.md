@@ -1,3 +1,9 @@
+Below are the instructions for our assigment on Movement Steps.
+
+Please see my html document for the full complete analysis and
+write-up. Thanks!
+
+
 ## Introduction
 
 It is now possible to collect a large amount of data about personal
